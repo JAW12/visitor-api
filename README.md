@@ -16,18 +16,18 @@ This repository contains the backend code for the Visitor API, which is used to 
 
 ## Prerequisites
 
-- Node.js (version X.X.X)
-- MySQL (version X.X.X)
+- Node.js (version 14 or later)
+- MySQL (version 8.2.4 or later)
 
 ## Installation
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/JAW12/visitor-api.git
    ```
 2. Navigate to the project directory:
    ```shell
-   cd your-repository
+   cd visitor-api
    ```
 3. Install the dependencies
    ```shell
@@ -114,7 +114,7 @@ The following endpoints are available in the API:
 - Path Parameter:
   - `id`: bigint(user ID)
 - Response:
-- ```json
+  ```json
     {
     "USER_ID": 1,
     "VISITOR_NO": "string",
