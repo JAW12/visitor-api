@@ -16,8 +16,8 @@ This repository contains the backend code for the Visitor API, which is used to 
 
 ## Prerequisites
 
-- Node.js (version X.X.X)
-- MySQL (version X.X.X)
+- Node.js (version 14 or later)
+- MySQL (version 8.2.4 or later)
 
 ## Installation
 
