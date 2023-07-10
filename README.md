@@ -114,7 +114,7 @@ The following endpoints are available in the API:
 - Path Parameter:
   - `id`: bigint(user ID)
 - Response:
-- ```json
+  ```json
     {
     "USER_ID": 1,
     "VISITOR_NO": "string",
