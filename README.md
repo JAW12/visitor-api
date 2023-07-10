@@ -23,11 +23,11 @@ This repository contains the backend code for the Visitor API, which is used to 
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/JAW12/visitor-api.git
    ```
 2. Navigate to the project directory:
    ```shell
-   cd your-repository
+   cd visitor-api
    ```
 3. Install the dependencies
    ```shell
