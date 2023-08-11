@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `user` MODIFY `ID_CARD_NO` BIGINT NOT NULL;

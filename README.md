@@ -63,7 +63,7 @@ The following endpoints are available in the API:
     {
     "VISITOR_NO": "string",
     "FULL_NAME": "string",
-    "ID_CARD_NO": "string",
+    "ID_CARD_NO": "bigint",
     "COMPANY_NAME": "string",
     "LICENSE_PLATE": "string",
     "PURPOSE": "string",
@@ -74,7 +74,7 @@ The following endpoints are available in the API:
   ```
 - Response:
   - `FULL_NAME`: string
-  - `ID_CARD_NO`: string
+  - `ID_CARD_NO`: bigint
   - `COMPANY_NAME`: string
   - `LICENSE_PLATE`: string
   - `PURPOSE`: string
@@ -93,7 +93,7 @@ The following endpoints are available in the API:
           "USER_ID": 1,
           "VISITOR_NO": "string",
           "FULL_NAME": "string",
-          "ID_CARD_NO": "string",
+          "ID_CARD_NO": "bigint",
           "COMPANY_NAME": "string",
           "LICENSE_PLATE": "string",
           "PURPOSE": "string",
@@ -119,7 +119,7 @@ The following endpoints are available in the API:
     "USER_ID": 1,
     "VISITOR_NO": "string",
     "FULL_NAME": "string",
-    "ID_CARD_NO": "string",
+    "ID_CARD_NO": "bigint",
     "COMPANY_NAME": "string",
     "LICENSE_PLATE": "string",
     "PURPOSE": "string",

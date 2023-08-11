@@ -14,7 +14,7 @@ model User {
   USER_ID           Int       @id @default(autoincrement())
   VISITOR_NO        String
   FULL_NAME         String
-  ID_CARD_NO        String
+  ID_CARD_NO        BigInt
   COMPANY_NAME      String
   LICENSE_PLATE     String
   PURPOSE           String
