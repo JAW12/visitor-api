@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 10 Jul 2023 pada 10.03
+-- Waktu pembuatan: 11 Agu 2023 pada 13.29
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -31,7 +31,7 @@ CREATE TABLE `user` (
   `USER_ID` int(11) NOT NULL,
   `VISITOR_NO` varchar(191) NOT NULL,
   `FULL_NAME` varchar(191) NOT NULL,
-  `ID_CARD_NO` varchar(191) NOT NULL,
+  `ID_CARD_NO` bigint(20) NOT NULL,
   `COMPANY_NAME` varchar(191) NOT NULL,
   `LICENSE_PLATE` varchar(191) NOT NULL,
   `PURPOSE` varchar(191) NOT NULL,
@@ -47,8 +47,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`USER_ID`, `VISITOR_NO`, `FULL_NAME`, `ID_CARD_NO`, `COMPANY_NAME`, `LICENSE_PLATE`, `PURPOSE`, `MEET_WITH`, `SELFIE_PHOTO_URL`, `ID_CARD_PHOTO_URL`, `CREATED_AT`, `UPDATED_AT`) VALUES
-(1, '001', 'John Doe', '1234567890', 'ABC Company', 'XYZ 123', 'Meeting', 'Jane Smith', 'https://example.com/selfie.jpg', 'https://example.com/idcard.jpg', '2023-07-10 07:42:09.102', '2023-07-10 07:42:09.102'),
-(2, '002', 'James', '1234567890', 'ABC Company', 'XYZ 123', 'Meeting', 'Jane Smith', 'https://example.com/selfie.jpg', 'https://example.com/idcard.jpg', '2023-07-10 07:49:10.293', '2023-07-10 07:49:10.293');
+(1, '001', 'John Doe', 1234567890, 'ABC Company', 'XYZ 123', 'Meeting', 'Jane Smith', 'https://example.com/selfie.jpg', 'https://example.com/idcard.jpg', '2023-07-10 07:42:09.102', '2023-07-10 07:42:09.102'),
+(2, '002', 'James', 1234567890, 'ABC Company', 'XYZ 123', 'Meeting', 'Jane Smith', 'https://example.com/selfie.jpg', 'https://example.com/idcard.jpg', '2023-07-10 07:49:10.293', '2023-07-10 07:49:10.293');
 
 -- --------------------------------------------------------
 
@@ -72,7 +72,9 @@ CREATE TABLE `_prisma_migrations` (
 --
 
 INSERT INTO `_prisma_migrations` (`id`, `checksum`, `finished_at`, `migration_name`, `logs`, `rolled_back_at`, `started_at`, `applied_steps_count`) VALUES
-('844ecee8-8cb7-4854-841e-542088c44775', '9ae1e2e1e79c6649df3b30ea65ace23e8c03511d3e935a85b07b504272bd65a0', '2023-07-10 07:22:42.349', '20230710072241_init', NULL, NULL, '2023-07-10 07:22:42.296', 1);
+('4e71074a-595b-446d-9ae4-372875b063bc', '031812b94745a23b450a387a9272e44cfe3673f05f2d13e58c479a05c9d2c152', '2023-08-11 11:25:51.672', '20230811112551_', NULL, NULL, '2023-08-11 11:25:51.585', 1),
+('844ecee8-8cb7-4854-841e-542088c44775', '9ae1e2e1e79c6649df3b30ea65ace23e8c03511d3e935a85b07b504272bd65a0', '2023-07-10 07:22:42.349', '20230710072241_init', NULL, NULL, '2023-07-10 07:22:42.296', 1),
+('a4a481ae-2f3a-45ee-92e7-e896cd89e9ea', '0776870faeae0cc2f0a9de52969e831df34d1a3d1f63ec5fcb42eab885d006c4', '2023-08-11 11:27:09.364', '20230811112709_', NULL, NULL, '2023-08-11 11:27:09.300', 1);
 
 --
 -- Indexes for dumped tables
