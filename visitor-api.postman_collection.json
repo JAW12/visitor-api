@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "5e996019-9d89-4e3f-bc52-08404f89934e",
+		"_postman_id": "3cd5d58d-7b57-4ffb-9261-15b484240042",
 		"name": "visitor-api",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "28431684"
@@ -60,7 +60,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": " {\r\n  \"VISITOR_NO\": \"003\",\r\n  \"FULL_NAME\": \"Jimmy\",\r\n  \"ID_CARD_NO\": \"1234567890\",\r\n  \"COMPANY_NAME\": \"ABC Company\",\r\n  \"LICENSE_PLATE\": \"XYZ 123\",\r\n  \"PURPOSE\": \"Meeting\",\r\n  \"MEET_WITH\": \"Jane Smith\",\r\n  \"SELFIE_PHOTO_URL\": \"https://example.com/selfie.jpg\",\r\n  \"ID_CARD_PHOTO_URL\": \"https://example.com/idcard.jpg\"\r\n  }",
+					"raw": " {\r\n  \"VISITOR_NO\": \"003\",\r\n  \"FULL_NAME\": \"Jimmy\",\r\n  \"ID_CARD_NO\": 1234567890,\r\n  \"COMPANY_NAME\": \"ABC Company\",\r\n  \"LICENSE_PLATE\": \"XYZ 123\",\r\n  \"PURPOSE\": \"Meeting\",\r\n  \"MEET_WITH\": \"Jane Smith\",\r\n  \"SELFIE_PHOTO_URL\": \"https://example.com/selfie.jpg\",\r\n  \"ID_CARD_PHOTO_URL\": \"https://example.com/idcard.jpg\"\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
